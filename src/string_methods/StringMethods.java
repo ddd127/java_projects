@@ -2,7 +2,7 @@ package string_methods;
 
 public class StringMethods {
 
-    public static interface Counter<T> {
+    public interface Counter<T> {
         T count(T arg, int index);
     }
 
